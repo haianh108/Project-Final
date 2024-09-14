@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Study Lesson</title>
+    <link rel="stylesheet" href="study.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">LearnLinguaAI</h1>
+        <h1>English Study Lesson</h1>
+        <a href="index.html" class="back-button">Back</a>
+    </header>
+
+    <main>
+        <section id="lesson-intro">
+            <h2>Welcome to Your English Study</h2>
+            <p>Today's lesson covers basic grammar and vocabulary.</p>
+        </section>
+
+        <section id="vocabulary-section">
+            <h2>Vocabulary</h2>
+            <ul id="vocabulary-list">
+                <li><span>Apple</span>: A fruit.</li>
+                <li><span>Book</span>: A collection of written words.</li>
+                <li><span>Run</span>: To move swiftly on foot.</li>
+            </ul>
+        </section>
+
+        <section id="quiz-section">
+            <h2>Quick Quiz</h2>
+            <p>Match the words with their meanings:</p>
+            <div id="quiz">
+                <p>1. Which word means "to move swiftly on foot"?</p>
+                <button onclick="checkAnswer('run')">Run</button>
+                <button onclick="checkAnswer('apple')">Apple</button>
+                <button onclick="checkAnswer('book')">Book</button>
+                <p id="quiz-result"></p>
+            </div>
+        </section>
+        <!-- New Section for Other Lessons -->
+        <section id="other-lessons">
+            <h2>Other English Lessons You Can Learn</h2>
+            <div class="lesson-grid">
+                <div class="lesson-box">
+                    <h3>Basic Grammar</h3>
+                    <p>Learn the essential grammar rules.</p>
+                    <a href="#">Start Lesson</a>
+                </div>
+                <div class="lesson-box">
+                    <h3>Intermediate Vocabulary</h3>
+                    <p>Expand your vocabulary with intermediate words.</p>
+                    <a href="#">Start Lesson</a>
+                </div>
+                <div class="lesson-box">
+                    <h3>Advanced Phrases</h3>
+                    <p>Master advanced phrases for conversation.</p>
+                    <a href="#">Start Lesson</a>
+                </div>
+                <div class="lesson-box">
+                    <h3>Pronunciation Tips</h3>
+                    <p>Improve your English pronunciation.</p>
+                    <a href="#">Start Lesson</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LearnLinguaAI. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="study.js"></script>
+</body>
+</html>
